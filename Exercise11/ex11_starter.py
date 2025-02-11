@@ -11,7 +11,7 @@ colon_separated = Belgium.replace(',',':')
 print(colon_separated)
 
 # To Calculate the total population of belgium by adding the population of Belgium & the population of its capital city
-# split() is used to split the string based on commas, which creates a list.
+# split()- Splitting the string into a list
 # belgium_list will be a list containing individual elements from the original string.
 Belgium_list = Belgium.split(',')
 print(Belgium_list)
@@ -24,7 +24,7 @@ population_capital_city = int(Belgium_list[3])
 # add the population of Belgium and the population of the capital city to get the total population.
 print(f"The total population of Belgium is: {population_Belgium + population_capital_city}") # prints the total population.
 
-
+#print('-' * len(Belgium),"\n", Belgium.replace(',',':'),"\n", Belgium_list, "\n",population_Belgium + population_capital_city)
 
 
 
